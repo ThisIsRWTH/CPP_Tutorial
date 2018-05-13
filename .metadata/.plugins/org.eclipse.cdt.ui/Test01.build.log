@@ -1,11 +1,10 @@
-15:41:38 **** Incremental Build of configuration Debug for project Test01 ****
+15:20:20 **** Incremental Build of configuration Debug for project Test01 ****
 Info: Internal Builder is used for build
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -o Prog01.o "..\\Prog01.cpp" 
 g++ -o Test01.exe Prog01.o test01.o 
 test01.o: In function `main':
 C:\workspaceAll\wNikaCPP\Test01\Debug/../test01.cpp:12: multiple definition of `main'
 Prog01.o:C:\workspaceAll\wNikaCPP\Test01\Debug/../Prog01.cpp:13: first defined here
 collect2.exe: error: ld returned 1 exit status
 
-15:41:39 Build Finished (took 685ms)
+15:20:21 Build Finished (took 351ms)
 
