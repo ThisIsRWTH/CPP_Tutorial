@@ -1,10 +1,11 @@
 LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/arch=x86_64
 LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/name=Local
 LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/os=win32
-configDescList=org.eclipse.launchbar.core.descriptorType.default\:Test01.exe,org.eclipse.launchbar.core.descriptorType.default\:Project2.1.8.exe,org.eclipse.launchbar.core.descriptorType.default\:Exercise2.2.2.exe,org.eclipse.launchbar.core.descriptorType.default\:Test02.exe,org.eclipse.launchbar.core.descriptorType.default\:SimpleProject.exe
+configDescList=org.eclipse.launchbar.core.descriptorType.default\:Test01.exe,org.eclipse.launchbar.core.descriptorType.default\:Project2.1.8.exe,org.eclipse.launchbar.core.descriptorType.default\:Exercise2.2.2.exe,org.eclipse.launchbar.core.descriptorType.default\:Test02.exe,org.eclipse.launchbar.core.descriptorType.default\:SimpleProject.exe,org.eclipse.launchbar.core.descriptorType.default\:Versuch03FinalSolution.exe,org.eclipse.launchbar.core.descriptorType.default\:Project4.6.1.exe
 eclipse.preferences.version=1
 org.eclipse.launchbar.core.descriptorType.default\:Exercise2.2.2.exe/activeLaunchMode=debug
 org.eclipse.launchbar.core.descriptorType.default\:Exercise2.2.2.exe/activeLaunchTarget=org.eclipse.launchbar.core.launchTargetType.local\:Local
+org.eclipse.launchbar.core.descriptorType.default\:Project4.6.1.exe/activeLaunchMode=run
 org.eclipse.launchbar.core.descriptorType.default\:SimpleProject.exe/activeLaunchMode=debug
 org.eclipse.launchbar.core.descriptorType.default\:Test01.exe/activeLaunchMode=run
 org.eclipse.launchbar.core.descriptorType.default\:Test01.exe/activeLaunchTarget=org.eclipse.launchbar.core.launchTargetType.local\:Local

@@ -1,6 +1,6 @@
-15:29:31 **** Incremental Build of configuration Debug for project SimpleProject ****
+21:58:34 **** Rebuild of configuration Debug for project Project4.6.1 ****
 Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o Vector.o "..\\Vector.cpp" 
 g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
-g++ -o SimpleProject.exe main.o 
-Info: Nothing to build for SimpleProject
-Info: Nothing to build for SimpleProject
+g++ -o Project4.6.1.exe Vector.o main.o 
+Info: Nothing to build for Project4.6.1
