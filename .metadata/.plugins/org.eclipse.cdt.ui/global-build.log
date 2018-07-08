@@ -1,6 +1,14 @@
-21:58:34 **** Rebuild of configuration Debug for project Project4.6.1 ****
+22:21:19 **** Rebuild of configuration Debug for project Exercise8.7.1 ****
 Info: Internal Builder is used for build
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -o Vector.o "..\\Vector.cpp" 
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
-g++ -o Project4.6.1.exe Vector.o main.o 
-Info: Nothing to build for Project4.6.1
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o Buch.o "..\\Buch.cpp" 
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o Datum.o "..\\Datum.cpp" 
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o Medium.o "..\\Medium.cpp" 
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o DVD.o "..\\DVD.cpp" 
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o Buecherei.o "..\\Buecherei.cpp" 
+..\Buecherei.cpp: In function 'int main()':
+..\Buecherei.cpp:69:9: warning: unused variable 'aTempMediumPtr' [-Wunused-variable]
+ Medium *aTempMediumPtr = new Buch("Lolita","Nabakov");
+         ^~~~~~~~~~~~~~
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o Person.o "..\\Person.cpp" 
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o Magazin.o "..\\Magazin.cpp" 
+g++ -o Exercise8.7.1.exe Buch.o Buecherei.o DVD.o Datum.o Magazin.o Medium.o Person.o 
